@@ -1,0 +1,10 @@
+Konflikt importów
+  Błąd pojawia się jeszcze przed kompilacją (zdjęcie 'Błąd.png') podczas kompilacji dostajemy error 'java: a type with the same simple name is already defined by the single-type-import of java.util.Date'
+
+
+ODP Metody statyczne nie mogą odwoływać się bezpośrednio do atrybutów instancyjnych klasy. Dlaczego?
+  Do elementów statycznych można się odwołać bez konieczności tworzenia obiektu, a do atrybutów instancyjnych klasy potrzebny jest utworzony obiekt
+
+
+ODP Użycie referencji this w metodzie statycznej spowoduje błąd kompilacji. Dlaczego?
+  Metody statyczne mają dostęp jedynie do metod i pól, które także są statyczne. Nie mogą one odnosić się do niestatycznych pól – nie operują one na konkretnych obiektach klasy, lecz w kontekście całej klasy – nie mają one dostępu do obiektu this, który wskazuje na obiekt, na rzecz którego metoda została wywołana.
