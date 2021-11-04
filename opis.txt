@@ -1,1 +1,5 @@
 Błąd pojawia się jeszcze przed kompilacją (zdjęcie 'Błąd.png') podczas kompilacji dostajemy error 'java: a type with the same simple name is already defined by the single-type-import of java.util.Date'
+
+
+ODP Metody statyczne nie mogą odwoływać się bezpośrednio do atrybutów instancyjnych klasy. Dlaczego?
+  Do elementów statycznych można się odwołać bez konieczności tworzenia obiektu, a do atrybutó instancyjnych klasy potrzebny    jest utworzony obiekt
