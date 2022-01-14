@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="sztuki">
+        <item quantity="one">sztuka</item>
+        <item quantity="few">sztuki</item>
+        <item quantity="other">sztuk</item>
+    </plurals>
+</resources>
